@@ -1,0 +1,102 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#check{
+float:right;
+}
+
+label{
+    float: left;
+    margin:1px;
+}
+
+#symbol{
+    display:inline;   
+    float:right;
+   
+}
+
+.checked{
+    color:rgb(153, 116, 46);
+}
+ 
+
+.count{
+
+    display:inline-block;
+}
+
+
+.images{
+    float: left;
+    margin-left:30px;
+    width:25%;
+    /* margin-left: 10px; */
+    margin-right:5px;
+    display:block;
+   
+ }
+
+#cards{   
+margin:auto;
+width:fit-content;
+float:left;
+border:2px solid grey;
+clear:both;
+}
+
+.card {
+    border:1px solid grey;
+    padding:23px;
+    display:block;
+    width:740px;
+    height:410px;
+    box-sizing: border-box;
+    border-left: none;
+    border-right:none;
+    display:inline-flexbox;
+    
+  
+ }
+ 
+ .box2{
+    margin-left: 0;
+    /* margin-top: 25rem; */
+    width: 34rem;
+    height:52rem;
+    display:inline-block;
+border:2px solid grey;
+border-left:none;
+clear:both;
+}
+h3{
+
+    font-weight:bold;
+    padding:12px;
+    margin:12px;
+    
+}
+.price{
+    display: inline;
+    float:left;
+    
+}
+
+.title{
+    font-size:10px;
+    display:inline;
+    margin-left: 25px;
+   
+}
+
+
